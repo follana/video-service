@@ -6,3 +6,8 @@ body{
     width: 100vw;
 };
 
+.boite-a-lien{
+    display: flex;
+    flex-direction: row;
+
+}
