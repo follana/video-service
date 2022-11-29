@@ -9,5 +9,20 @@ body{
 .boite-a-lien{
     display: flex;
     flex-direction: row;
+}
 
+.images{
+    width:150px;
+    height:150px;
+    contain: cover;
+}
+
+.photo{
+    padding-bottom: 50px;
+}
+
+
+
+.presentation{
+    padding-bottom: 50px;
 }
