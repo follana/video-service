@@ -1,0 +1,85 @@
+body {
+  background-color: #212529;
+}
+
+header {
+  z-index: 10000;
+}
+
+a {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+:any-link {
+  color: white;
+}
+
+:link {
+  color: white;
+}
+.fa {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  padding: 10px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  padding: 10px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding: 10px;
+}
+.title {
+  position: absolute;
+}
+@media (max-width: 1250px) {
+  .flo_p {
+    display: none;
+  }
+  .banner {
+    display: none;
+  }
+  .banner_low_poly {
+    display: block;
+  }
+  /* .title {top: 35%;} */
+}
+
+@media (min-width: 1250px) {
+  .banner {
+    display: block;
+  }
+  .banner_low_poly {
+    display: none;
+  }
+
+  .title {
+    top: 10%;
+  }
+}
+
+@media (max-width: 1809px) {
+  .title {
+    top: 35%;
+  }
+}
