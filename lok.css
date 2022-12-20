@@ -49,10 +49,6 @@ a {
   color: white;
   padding: 10px;
 }
-.title {
-  position: absolute;
-  height: 15%;
-}
 @media (max-width: 1250px) {
   .flo_p {
     display: none;
@@ -74,28 +70,33 @@ a {
     display: none;
   }
 
-  .title {
-    font-size: 250%;
-    top: 10%;
-    display: block;
-  }
-  
 }
 
 @media (max-width: 1809px) {
-  .title {
-    top: 35%;
-    font-size: 150%;
-    display: block;
-    bottom: 25px;
-  }
+
 }
-@media (max-width: 350px) {
+@media (max-width: 701px) {
   .title{
     display: none;
+    
   }
 }
 
 .navbar-toggler-icon{
   filter: invert(1);
 }
+
+.playbutton{ 
+  z-index: 900000;
+  background: #3f474f;
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+
+  display: none;
+}
+
+
