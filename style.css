@@ -152,23 +152,24 @@ body {
   width: 100vw;
 }
 
-.body-portflio {
-  height: 600px;
-  margin: 0;
-  display: grid;
-  grid-template-rows: 500px 100px;
-  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
-  align-items: center;
-  justify-items: center;
+h1{
+  text-align: center;
+  margin: 20px;
 }
 
-.images {
-  width: 120px;
-  height: 120px;
-  contain: cover;
-  margin-top: 10px;
+h4{
+  text-align: center;
+  font-weight: bold;
 }
 
+.card{
+  margin: 0px 10px;
+  text-align: center;
+  
+}
+.card-body{
+  background-color: lightgray;
+}
 .photo {
   padding-bottom: 50px;
 }
@@ -182,7 +183,6 @@ body {
 .presentation {
   padding-bottom: 50px;
 }
-
 
   /***********************************LOK***************************/
 
