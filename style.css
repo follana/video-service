@@ -42,7 +42,7 @@ button {
 }
 
 /*********************************************CAROUSSEL****************************/
-main#carousel {
+/* main#carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 8;
   width: 100vw;
@@ -141,7 +141,7 @@ input:nth-of-type(5) {
 }
 input:nth-of-type(5):checked ~ main#carousel {
   --position: 5;
-}
+} */
 
 /*********************************************PRESENTATION*********************************/
 body {
@@ -238,9 +238,59 @@ body {
     position: absolute;
   }
 
+  .nav-bar-no-css{all:unset;}
 
-  /*****************************/
-  h2{
+
+  @media (max-width: 1250px) {
+    .flo_p {
+      display: none;
+    }
+    .banner {
+      display: none;
+    }
+    .banner_low_poly {
+      display: block;
+    }
+
+    /* .title {top: 35%;} */
+  }
+  
+  @media (min-width: 1250px) {
+    .banner {
+      display: block;
+    }
+    .banner_low_poly {
+      display: none;
+    }
+  
+    .title {
+      top: 10%;
+    }
+  }
+  
+  @media (max-width: 1809px) {
+    .title {
+      top: 35%;
+    }
+  }
+  
+  .navbar-toggler{
+    margin: 0;
+    width: 56px;
+    height: 40px;
+  }
+
+  .navbar-toggler-icon{
+    height: 30px;
+    width: 30px;
+  }
+
+  .navbar-toggler-icon{
+    filter: invert(1);
+  }
+
+  /**********************************GALERIE**********************************/
+  .h2{
     margin-top: 15px;
     text-align: center;
     font-size: 50px;
@@ -265,6 +315,7 @@ body {
 
   .videogal{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
   }
@@ -272,4 +323,3 @@ body {
   iframe{
     margin: 15px;
   }
-

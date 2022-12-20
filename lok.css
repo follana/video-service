@@ -51,6 +51,7 @@ a {
 }
 .title {
   position: absolute;
+  height: 15%;
 }
 @media (max-width: 1250px) {
   .flo_p {
@@ -74,12 +75,27 @@ a {
   }
 
   .title {
+    font-size: 250%;
     top: 10%;
+    display: block;
   }
+  
 }
 
 @media (max-width: 1809px) {
   .title {
     top: 35%;
+    font-size: 150%;
+    display: block;
+    bottom: 25px;
   }
+}
+@media (max-width: 350px) {
+  .title{
+    display: none;
+  }
+}
+
+.navbar-toggler-icon{
+  filter: invert(1);
 }
