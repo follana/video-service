@@ -237,3 +237,39 @@ body {
   .title {
     position: absolute;
   }
+
+
+  /*****************************/
+  h2{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+
+.photosgal img{
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+  border-radius: 10px;
+}
+  .photosgal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .photosgal img:hover{
+    transform: scale(1.02);
+  }
+
+  .videogal{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  iframe{
+    margin: 15px;
+  }
+
