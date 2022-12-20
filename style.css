@@ -237,3 +237,53 @@ body {
   .title {
     position: absolute;
   }
+
+  .nav-bar-no-css{all:unset;}
+
+
+  @media (max-width: 1250px) {
+    .flo_p {
+      display: none;
+    }
+    .banner {
+      display: none;
+    }
+    .banner_low_poly {
+      display: block;
+    }
+    /* .title {top: 35%;} */
+  }
+  
+  @media (min-width: 1250px) {
+    .banner {
+      display: block;
+    }
+    .banner_low_poly {
+      display: none;
+    }
+  
+    .title {
+      top: 10%;
+    }
+  }
+  
+  @media (max-width: 1809px) {
+    .title {
+      top: 35%;
+    }
+  }
+  
+  .navbar-toggler{
+    margin: 0;
+    width: 56px;
+    height: 40px;
+  }
+
+  .navbar-toggler-icon{
+    height: 30px;
+    width: 30px;
+  }
+
+  .navbar-toggler-icon{
+    filter: invert(1);
+  }
