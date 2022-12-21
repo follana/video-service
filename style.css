@@ -257,6 +257,9 @@ h4{
 }
 
 @media (min-width:440px) {
+  #flo_jpeg{
+    border-radius: 5px 0px 0px 5px;
+  }
   .etapes{
     display: flex;
     justify-content: center;
@@ -264,6 +267,9 @@ h4{
 }
 
 @media (max-width:440px) {
+  #flo_jpeg{
+    border-radius: 5px 5px 0px 0px;
+  }
   .etapes{
     display: flex;
     flex-direction: column;
